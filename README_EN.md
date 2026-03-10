@@ -13,6 +13,15 @@ English | [简体中文](README.md)
 
 </div>
 
+## ✨ Highlights
+
+- 🎯 *Chinese Ecosystem Focus* - Resources specifically adapted for Chinese scenarios
+- 🔥 *Real & Usable* - All projects are real, existing, and ready-to-use open source projects
+- 📈 *Continuously Updated* - Stay current with the latest in Chinese AI Agent field
+- 🌟 *Carefully Selected* - Filtered by GitHub stars and community activity
+- 💡 *Practice-Oriented* - Complete use cases and best practices included
+- 🤝 *Community-Driven* - Contributions welcome from all developers
+
 ---
 
 ## 📖 Table of Contents

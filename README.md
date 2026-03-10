@@ -13,6 +13,15 @@
 
 </div>
 
+## ✨ 项目亮点
+
+- 🎯 *专注中文生态* - 收录专门适配中文场景的 AI Agent 资源
+- 🔥 *真实可用* - 所有项目均为真实存在、可直接使用的开源项目
+- 📈 *持续更新* - 紧跟中文 AI Agent 领域最新动态
+- 🌟 *精选推荐* - 按 GitHub Star 数和社区活跃度筛选优质资源
+- 💡 *实战导向* - 包含完整的实战案例和最佳实践
+- 🤝 *社区驱动* - 欢迎所有开发者贡献和完善
+
 ---
 
 ## 📖 目录
@@ -133,17 +142,34 @@
   - 适合团队协作场景
   - 支持中文场景
 
-### 测试与调试
+### RAG 与知识库
 
-- **[LangSmith](https://smith.langchain.com/)** - LLM 应用监控平台
-  - 实时追踪 Agent 执行
-  - 中文界面
-  - 性能分析
+- **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** - 本地知识库问答系统
+  - 支持多种文档格式
+  - 向量数据库集成
+  - 完整的中文支持
 
-- **[Prompt Flow](https://github.com/microsoft/promptflow)** - 微软的 LLM 应用开发套件
-  - 可视化 Prompt 调试
-  - 中文文档
-  - VS Code 插件
+- **[QAnything](https://github.com/netease-youdao/QAnything)** - 网易有道的本地知识库问答
+  - 支持任意格式文件
+  - 离线运行
+  - 中文优化
+
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** - 基于深度文档理解的 RAG 引擎
+  - 可视化管理界面
+  - 支持复杂文档解析
+  - 中文文档完善
+
+### 提示词工程
+
+- **[ChatGPT-Prompt-Engineering-for-Developers-in-Chinese](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)** - 吴恩达提示词课程中文版
+  - 系统化的提示词教程
+  - 实战案例丰富
+  - 适合入门学习
+
+- **[Prompt-Engineering-Guide-Chinese](https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese)** - 提示词工程指南中文版
+  - 全面的提示词技巧
+  - 最佳实践案例
+  - 持续更新
 
 ---
 
@@ -573,24 +599,105 @@
 
 ## 🌐 社区资源
 
-### 中文社区
+### 中文技术社区
 
-- **[AI研习社](https://www.yanxishe.com/)** - AI技术交流社区
-- **[Paper With Code](https://paperswithcode.com/)** - 论文与代码
-- **[知乎 - 人工智能话题](https://www.zhihu.com/topic/19551275)** - 高质量讨论
-- **[掘金 - AI标签](https://juejin.cn/tag/AI)** - 技术文章分享
+- **[知乎 - 人工智能话题](https://www.zhihu.com/topic/19551275)** - 高质量技术讨论
+  - AI Agent 相关话题活跃
+  - 行业专家分享经验
+  - 最新技术动态
 
-### 微信群/Discord
+- **[掘金 - AI 标签](https://juejin.cn/tag/AI)** - 开发者社区
+  - 技术文章分享
+  - 实战经验交流
+  - 开源项目推荐
 
-- 加入我们的微信交流群: [扫码加入](images/wechat-group-qr.png)
-- Discord服务器: [点击加入](https://discord.gg/awesome-chinese-ai-agents)
-- Telegram群组: [点击加入](https://t.me/awesome_chinese_ai_agents)
+- **[CSDN - AI 专区](https://blog.csdn.com/nav/ai)** - 中文技术博客
+  - 入门教程丰富
+  - 代码示例完整
+  - 问题解答及时
 
-### 定期活动
+- **[GitHub 中文社区](https://github.com/topics/chinese)** - 开源项目聚集地
+  - 中文开源项目
+  - 协作开发
+  - Issue 讨论
 
-- **每周直播**: 周三晚8点,分享最新技术
-- **月度Meetup**: 线下技术交流
-- **黑客松**: 季度一次,奖金丰厚
+### 学习资源
+
+- **B站 UP主推荐**:
+  - 搜索"AI Agent 教程"
+  - 搜索"LangChain 实战"
+  - 搜索"大模型应用开发"
+
+- **公众号推荐**:
+  - "AI科技大本营"
+  - "机器之心"
+  - "量子位"
+  - "新智元"
+
+### 开源贡献
+
+欢迎为本项目贡献资源!
+- 提交 Issue 报告问题
+- 提交 PR 添加资源
+- Star 本项目支持我们
+- 分享给更多开发者
+
+---
+
+## 💡 最佳实践
+
+### 选择合适的框架
+
+- *入门推荐*: LangChain - 文档完善,社区活跃,中文资源丰富
+- *企业应用*: 万物 Wanwu - 企业级平台,多租户支持
+- *多 Agent 协作*: MetaGPT - 软件开发场景,自动化协作
+- *本地部署*: ChatGLM + LangChain - 数据安全,私有化部署
+
+### 中文 LLM 选择
+
+| 模型 | 适用场景 | 优势 | 成本 |
+|------|---------|------|------|
+| *通义千问* | 通用对话、内容生成 | 中文理解好,API稳定 | 中等 |
+| *ChatGLM* | 私有化部署 | 可本地运行,数据安全 | 硬件成本 |
+| *文心一言* | 企业应用 | 百度生态集成 | 中等 |
+| *GPT-4* | 复杂推理 | 能力最强 | 较高 |
+
+### 微信集成最佳实践
+
+1. *选择合适的接入方案*:
+   - 个人微信: WeChaty (注意封号风险)
+   - 企业微信: 官方 SDK (稳定可靠)
+   - 公众号: 微信公众平台 API (官方支持)
+
+2. *避免常见问题*:
+   - 消息去重处理
+   - 频率限制控制
+   - 异常重连机制
+   - 日志监控告警
+
+3. *性能优化*:
+   - 使用消息队列异步处理
+   - Redis 缓存会话状态
+   - 限流防止滥用
+   - 定期清理历史数据
+
+### RAG 系统优化
+
+1. *文档预处理*:
+   - 清洗格式和无效字符
+   - 合理分块 (chunk size 建议 500-1000 字符)
+   - 添加元数据信息
+
+2. *向量库选择*:
+   - 小规模 (<10万): Chroma, FAISS
+   - 中规模 (10万-100万): Qdrant, Milvus
+   - 大规模 (>100万): Elasticsearch, Weaviate
+
+3. *检索优化*:
+   - 混合检索 (向量 + 关键词)
+   - Rerank 重排序
+   - 动态调整 Top-K
+   - 结果去重和过滤
 
 ---
 
