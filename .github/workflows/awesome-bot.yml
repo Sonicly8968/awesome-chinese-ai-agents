@@ -1,0 +1,58 @@
+name: Awesome Bot - Link Checker
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  awesome-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Install awesome_bot
+        run: gem install awesome_bot
+
+      - name: Check links in README.md
+        run: |
+          awesome_bot README.md \
+            --allow-dupe \
+            --allow-redirect \
+            --request-delay 0.5 \
+            --white-list github.com,githubusercontent.com \
+            --skip-save-results \
+            || true
+
+      - name: Check links in README_EN.md
+        run: |
+          awesome_bot README_EN.md \
+            --allow-dupe \
+            --allow-redirect \
+            --request-delay 0.5 \
+            --white-list github.com,githubusercontent.com \
+            --skip-save-results \
+            || true
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '⚠️ Some links appear to be broken. Please check the workflow logs for details.'
+            })

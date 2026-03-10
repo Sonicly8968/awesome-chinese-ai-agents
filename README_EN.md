@@ -4,12 +4,18 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/happydog-intj/awesome-chinese-ai-agents?style=social)](https://github.com/happydog-intj/awesome-chinese-ai-agents)
+[![GitHub forks](https://img.shields.io/github/forks/happydog-intj/awesome-chinese-ai-agents?style=social)](https://github.com/happydog-intj/awesome-chinese-ai-agents/fork)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/happydog-intj/awesome-chinese-ai-agents)](https://github.com/happydog-intj/awesome-chinese-ai-agents/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/happydog-intj/awesome-chinese-ai-agents)](https://github.com/happydog-intj/awesome-chinese-ai-agents/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/happydog-intj/awesome-chinese-ai-agents)](https://github.com/happydog-intj/awesome-chinese-ai-agents/commits/main)
 
 **The Most Comprehensive Chinese AI Agent Resources** - A curated collection of AI Agent tools, skills, documentation, and best practices tailored for Chinese developers
 
 English | [简体中文](README.md)
+
+[⭐ Star](https://github.com/happydog-intj/awesome-chinese-ai-agents) · [🐛 Report Bug](https://github.com/happydog-intj/awesome-chinese-ai-agents/issues/new?template=bug_report.md) · [💡 Request Feature](https://github.com/happydog-intj/awesome-chinese-ai-agents/issues/new?template=add_resource.md)
 
 </div>
 

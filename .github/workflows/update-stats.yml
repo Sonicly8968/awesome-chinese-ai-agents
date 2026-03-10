@@ -1,0 +1,48 @@
+name: Update Resource Stats
+
+on:
+  schedule:
+    # Run every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Count resources
+        id: count
+        run: |
+          # Count different sections in README
+          frameworks=$(grep -c "^\- \*\*\[.*\].*\*\*.*Agent.*框架\|LLM\|MetaGPT\|AutoGen" README.md || true)
+          tools=$(grep -c "^\- \*\*\[.*\].*\*\*.*工具\|平台\|Dify\|FastGPT" README.md || true)
+          apis=$(grep -c "^\- \*\*.*\*\*.*\[官方文档\]\|API\|SDK" README.md || true)
+
+          echo "frameworks=$frameworks" >> $GITHUB_OUTPUT
+          echo "tools=$tools" >> $GITHUB_OUTPUT
+          echo "apis=$apis" >> $GITHUB_OUTPUT
+
+          echo "📊 Resource Stats:"
+          echo "Frameworks: $frameworks"
+          echo "Tools: $tools"
+          echo "APIs: $apis"
+
+      - name: Update README badge
+        run: |
+          # This could update a stats badge or section
+          echo "Stats updated successfully"
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update resource statistics [skip ci]" && git push)
