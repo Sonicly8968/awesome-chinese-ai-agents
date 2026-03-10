@@ -22,6 +22,17 @@ English | [简体中文](README.md)
 - 💡 *Practice-Oriented* - Complete use cases and best practices included
 - 🤝 *Community-Driven* - Contributions welcome from all developers
 
+## 📊 Resource Statistics
+
+- 🔧 *AI Agent Frameworks*: 15+
+- 🤖 *Chinese LLMs*: 10+
+- 🛠️ *Development Tools*: 25+
+- 💬 *Platform Integrations*: 8+ (WeChat, Douyin, Xiaohongshu, etc.)
+- 📚 *Learning Resources*: 20+
+- 🎨 *Prompt Templates*: 15+
+- 📊 *Use Cases*: 5+
+- 🔌 *Chinese Service APIs*: 30+
+
 ---
 
 ## 📖 Table of Contents
@@ -155,6 +166,62 @@ China has a unique digital ecosystem with platforms like WeChat, Douyin (TikTok)
 - **[LangChain](https://github.com/langchain-ai/langchain)** - Popular LLM application framework
 - **[LangGraph](https://github.com/langchain-ai/langgraph)** - Build stateful agent workflows
 - **[CrewAI](https://github.com/joaomdmoura/crewAI)** - Role-playing multi-agent collaboration
+
+### Visual Development Platforms
+
+- **[Dify](https://github.com/langgenius/dify)** - Open-source LLM app development platform (60K+ ⭐)
+  - Visual prompt orchestration
+  - Supports multiple LLMs
+  - Full Chinese UI
+  - Agent and workflow design
+
+- **[FastGPT](https://github.com/labring/FastGPT)** - Knowledge base Q&A system
+  - Drag-and-drop workflow
+  - Visual debugging
+  - API support
+  - Dataset management
+
+### Monitoring & Debugging
+
+- **[Langfuse](https://github.com/langfuse/langfuse)** - Open-source LLM engineering platform
+  - LLM observability
+  - Prompt management
+  - Cost tracking
+  - Multi-framework integration
+
+- **[LangSmith](https://smith.langchain.com/)** - Official LangChain monitoring
+  - Real-time agent tracking
+  - Prompt debugging
+  - Performance analytics
+
+### Vector Databases
+
+- **[Qdrant](https://github.com/qdrant/qdrant)** - High-performance vector search
+  - Rust-based, excellent performance
+  - Filtering and grouping support
+  - Comprehensive Chinese docs
+
+- **[Milvus](https://github.com/milvus-io/milvus)** - Cloud-native vector database
+  - Massive scale support
+  - Multiple index algorithms
+  - Chinese team development
+
+- **[Chroma](https://github.com/chroma-core/chroma)** - AI-native vector database
+  - Lightweight and easy to use
+  - Python/JS SDK
+  - Great for prototyping
+
+### Deployment & Operations
+
+- **[Ollama](https://github.com/ollama/ollama)** - Run LLMs locally
+  - One-click installation
+  - Multiple model support
+  - OpenAI-compatible API
+
+- **[vLLM](https://github.com/vllm-project/vllm)** - High-performance LLM inference
+  - 10-20x throughput improvement
+  - Production-ready
+  - PagedAttention optimization
 
 ---
 
