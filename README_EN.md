@@ -1,4 +1,6 @@
-# Awesome Chinese AI Agents 🤖🇨🇳
+# Awesome Chinese AI Agents 🦞🤖
+
+> *Why the lobster 🦞?* Because OpenClaw = Open + Claw, so everyone calls it "little lobster" (小龙虾). Building AI Agents = "Raising lobsters"!
 
 <div align="center">
 

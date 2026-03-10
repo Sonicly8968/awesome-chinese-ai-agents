@@ -1,4 +1,6 @@
-# Awesome Chinese AI Agents 🤖🇨🇳
+# Awesome Chinese AI Agents 🦞🤖
+
+> *为什么是小龙虾 🦞?* 因为 OpenClaw = Open + Claw(钳子),所以大家都叫它"小龙虾",开发 AI Agent 就是"养小龙虾"!
 
 <div align="center">
 
