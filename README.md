@@ -40,6 +40,8 @@
 - [🔌 中国服务API集成](#-中国服务api集成)
 - [📊 实战案例](#-实战案例)
 - [🌐 社区资源](#-社区资源)
+- [❓ 常见问题速查](#-常见问题速查)
+- [💡 最佳实践](#-最佳实践)
 - [🤝 贡献指南](#-贡献指南)
 
 ---
@@ -60,10 +62,37 @@
 ### 给使用者
 
 *新手入门建议*:
-1. 浏览 [精选项目](#-精选项目) 选择一个框架(推荐 LangChain 或 OpenClaw)
+1. 浏览 [精选项目](#-精选项目) 选择一个框架(推荐 LangChain 或 Dify)
 2. 查看 [对话平台集成](#-对话平台集成) 了解如何接入微信/抖音等平台
 3. 参考 [实战案例](#-实战案例) 学习完整的实现方案
 4. 阅读 [FAQ](docs/FAQ.md) 解决常见问题
+
+*5分钟快速上手*:
+
+```bash
+# 方案1: 使用 Dify (可视化,零代码)
+git clone https://github.com/langgenius/dify.git
+cd dify/docker
+docker-compose up -d
+# 访问 http://localhost/install 完成安装
+
+# 方案2: 使用 LangChain (代码开发)
+pip install langchain openai
+# 创建你的第一个 Agent
+python -c "
+from langchain.agents import initialize_agent, Tool
+from langchain.llms import OpenAI
+
+llm = OpenAI(temperature=0)
+tools = []
+agent = initialize_agent(tools, llm, agent='zero-shot-react-description')
+print(agent.run('你好,请介绍一下自己'))
+"
+
+# 方案3: 使用 Ollama (本地运行)
+curl https://ollama.ai/install.sh | sh
+ollama run qwen  # 运行通义千问模型
+```
 
 ### 给项目发起者
 
@@ -126,6 +155,16 @@
   - 中文 LLM 应用案例
   - 实战项目代码
 
+### 框架对比
+
+| 框架 | 上手难度 | 中文支持 | 社区活跃度 | 适用场景 | Star数 |
+|------|---------|---------|----------|---------|--------|
+| *LangChain* | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 通用开发 | 100K+ |
+| *MetaGPT* | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 多Agent协作 | 45K+ |
+| *AutoGen* | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 对话系统 | 35K+ |
+| *万物 Wanwu* | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | 企业应用 | 3.9K |
+| *Dify* | ⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 可视化开发 | 60K+ |
+
 ---
 
 ## 🛠️ 开发工具
@@ -159,6 +198,20 @@
   - 支持复杂文档解析
   - 中文文档完善
 
+### 可视化开发平台
+
+- **[Dify](https://github.com/langgenius/dify)** - 开源的 LLM 应用开发平台
+  - 可视化 Prompt 编排
+  - 支持多种 LLM
+  - 完整的中文界面
+  - Agent 和工作流设计
+
+- **[FastGPT](https://github.com/labring/FastGPT)** - 知识库问答系统
+  - 拖拽式工作流
+  - 可视化调试
+  - 支持 API 调用
+  - 数据集管理
+
 ### 提示词工程
 
 - **[ChatGPT-Prompt-Engineering-for-Developers-in-Chinese](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)** - 吴恩达提示词课程中文版
@@ -170,6 +223,20 @@
   - 全面的提示词技巧
   - 最佳实践案例
   - 持续更新
+
+### 部署与运维
+
+- **[Ollama](https://github.com/ollama/ollama)** - 本地运行大语言模型
+  - 一键安装部署
+  - 支持多种模型
+  - API 兼容 OpenAI
+  - 资源占用可控
+
+- **[LocalAI](https://github.com/mudler/LocalAI)** - 本地 AI API 服务
+  - OpenAI 兼容 API
+  - 支持 CPU 运行
+  - Docker 部署
+  - 隐私保护
 
 ---
 
@@ -641,6 +708,61 @@
 - 提交 PR 添加资源
 - Star 本项目支持我们
 - 分享给更多开发者
+
+---
+
+## ❓ 常见问题速查
+
+<details>
+<summary><b>Q: 我是新手,应该从哪个框架开始?</b></summary>
+
+A: 推荐顺序:
+- *零代码*: Dify (可视化界面,拖拽式开发)
+- *Python 开发者*: LangChain (生态完善,中文资源多)
+- *企业应用*: 万物 Wanwu (多租户,开箱即用)
+</details>
+
+<details>
+<summary><b>Q: 如何选择中文 LLM?</b></summary>
+
+A: 根据需求选择:
+- *预算充足*: GPT-4 或 Claude (能力最强)
+- *性价比*: 通义千问、文心一言 (中文优化好)
+- *私有部署*: ChatGLM、Qwen (可本地运行)
+- *免费测试*: Ollama + Qwen (完全本地)
+</details>
+
+<details>
+<summary><b>Q: 微信机器人会被封号吗?</b></summary>
+
+A: 风险评估:
+- *个人微信 + WeChaty*: 有封号风险,建议用小号测试
+- *企业微信*: 官方支持,稳定可靠
+- *微信公众号*: 官方 API,完全合规
+- *建议*: 生产环境优先使用企业微信或公众号
+</details>
+
+<details>
+<summary><b>Q: RAG 系统的准确率低怎么办?</b></summary>
+
+A: 优化方案:
+1. *文档质量*: 清洗格式,去除无效信息
+2. *分块策略*: 调整 chunk_size (建议 500-1000 字符)
+3. *检索优化*: 使用混合检索 (向量 + 关键词)
+4. *Rerank*: 添加重排序模型提升准确率
+5. *Prompt 优化*: 明确告诉模型如何使用检索内容
+</details>
+
+<details>
+<summary><b>Q: 如何降低 API 调用成本?</b></summary>
+
+A: 成本优化技巧:
+- *缓存*: 相似问题直接返回缓存结果
+- *模型选择*: 简单任务用小模型 (GPT-3.5/通义千问)
+- *Prompt 压缩*: 减少不必要的上下文
+- *本地模型*: 高频场景考虑 Ollama 本地部署
+- *流式输出*: 避免重复生成
+</details>
 
 ---
 

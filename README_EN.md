@@ -131,6 +131,16 @@ China has a unique digital ecosystem with platforms like WeChat, Douyin (TikTok)
   - Chinese LLM application cases
   - Practical project code
 
+### Framework Comparison
+
+| Framework | Learning Curve | Chinese Support | Community | Best For | Stars |
+|-----------|---------------|-----------------|-----------|----------|-------|
+| *LangChain* | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | General Development | 100K+ |
+| *MetaGPT* | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Multi-Agent | 45K+ |
+| *AutoGen* | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Dialog Systems | 35K+ |
+| *Wanwu* | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | Enterprise | 3.9K |
+| *Dify* | ⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | No-Code Platform | 60K+ |
+
 ---
 
 ## 🛠️ Development Tools
