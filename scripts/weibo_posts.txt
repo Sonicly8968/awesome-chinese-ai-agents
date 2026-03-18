@@ -1,0 +1,66 @@
+做 AI Agent 开发的朋友，这个资源库必须收藏！100+ 个中文场景专属项目，微信/飞书/钉钉机器人接入方案、国产大模型API对比、实战案例应有尽有，还每天自动更新。再也不用在英文堆里找中文方案了🦞
+
+GitHub: https://github.com/happydog-intj/awesome-chinese-ai-agents
+
+#AI开发# #AIAgent# #LLM# #开源项目# #DeepSeek#
+---
+说真的，中文 AI Agent 资源太散了😮‍💨 框架怎么选？微信机器人怎么接？国产模型API怎么用？全靠自己踩坑。
+
+直到我发现「Awesome Chinese AI Agents」，100+ 真实可用资源，按场景分类，中文开发者专属。
+
+链接：https://github.com/happydog-intj/awesome-chinese-ai-agents
+
+#程序员# #AI工具# #人工智能# #AIAgent# #开源#
+---
+🔥 资源更新！「中文AI Agent 资源库」近期新增 80+ 项目
+
+精选亮点：
+▪ TrendRadar — AI 舆情监控（49k⭐）
+▪ MaxKB — 企业级 Agent 平台（20k⭐）
+▪ DeepAudit — AI 代码安全审计（5k⭐）
+
+每天早中晚自动收集，持续更新🦞
+
+GitHub: https://github.com/happydog-intj/awesome-chinese-ai-agents
+
+#AI开发# #开源项目# #AIAgent# #DeepSeek# #LLM#
+---
+有没有做 AI Agent 开发的朋友？
+
+最近整理了一份专门面向中文开发者的资源库，解决了我最头疼的三个问题：
+✅ 框架选型不再迷茫
+✅ 微信/企微/飞书接入有方案
+✅ 国产大模型直接有代码示例
+
+欢迎 Star 一起维护 ⭐
+https://github.com/happydog-intj/awesome-chinese-ai-agents
+
+#AIAgent# #AI开发# #程序员# #人工智能# #开源#
+---
+学 AI Agent 的中文资料在哪里？
+
+这个问题困扰了我很久，直到整理了这个项目：
+→ 15+ 框架对比（附中文文档）
+→ 微信/抖音/小红书集成方案
+→ DeepSeek/通义/文心接入代码
+→ 5 个完整实战案例
+
+每天自动更新，不会过时 🦞
+
+https://github.com/happydog-intj/awesome-chinese-ai-agents
+
+#中文AI# #LLM# #程序员# #开源项目# #AIAgent#
+---
+2026年中文 AI Agent 生态，哪些项目值得关注？
+
+整理了一份持续更新的资源库，涵盖：
+🔧 国内外主流框架
+🤖 国产大模型接入
+💬 中国平台（微信/飞书/钉钉）集成
+📊 真实业务场景案例
+🔌 百度地图/支付宝等国内API
+
+欢迎贡献和 Star ⭐
+https://github.com/happydog-intj/awesome-chinese-ai-agents
+
+#AI# #AIAgent# #开源# #DeepSeek# #LLM# #程序员#
