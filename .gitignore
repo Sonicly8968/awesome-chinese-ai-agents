@@ -17,3 +17,6 @@ Thumbs.db
 
 # Node modules (if adding any automation)
 node_modules/
+
+# 自动收集日志
+logs/*.log
